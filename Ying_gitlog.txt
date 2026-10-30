@@ -1,0 +1,30 @@
+commit f3e977a87b234d28f4c1635b7681e27f7ef41e23
+Merge: 16cd6dd 1559e3c
+Author: Ying <ying.proyectos@gmail.com>
+Date:   Fri Oct 30 19:16:12 2026 +0100
+
+    Merge branch 'feature-login'
+
+commit 1559e3c45d849a4811e4928e42b80f37b43f6283
+Author: Ying <ying.proyectos@gmail.com>
+Date:   Fri Oct 30 19:13:05 2026 +0100
+
+    Creado funcionalidad login
+
+commit 16cd6dd0402b52a9d7b5fc70758a95f4f65990ea
+Author: Ying <ying.proyectos@gmail.com>
+Date:   Fri Oct 30 19:08:13 2026 +0100
+
+    Actualizar desarrollo.txt
+
+commit bed44f12993b918a3b26c2b9ac7df175a08d0414
+Author: Ying <ying.proyectos@gmail.com>
+Date:   Fri Oct 30 19:06:33 2026 +0100
+
+    Crear archivo desarrollo
+
+commit 09c4093f992f22c401c16fa7f90672001168a8f7
+Author: Ying <ying.proyectos@gmail.com>
+Date:   Fri Oct 30 19:03:32 2026 +0100
+
+    README creado

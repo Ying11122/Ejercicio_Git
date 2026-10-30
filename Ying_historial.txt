@@ -1,0 +1,61 @@
+    1  mkdir practica-git
+    2  cd practica-git
+    3  pwd
+    4  git init -b main Practica-git
+    5  cd Practica-git
+    6  pwd
+    7  git config user.name "Ying" 
+    8  git config user.email "ying.proyectos@gmail.com"
+    9  git remote add origin https://github.com/Ying11122/Ying_ParcialM3
+   10  git remote -v
+   11  echo "Práctica Git" > README.txt
+   12  cat README.txt
+   13  git status
+   14  git add README.txt
+   15  git commit -m "README creado"
+   16  git status
+   17  git push -u origin main
+   18  git switch -c desarrollo
+   19  git branch
+   20  echo "Primera version del desarrollo" > desarrollo.txt
+   21  git status
+   22  git add desarrollo.txt
+   23  git status
+   24  git commit -m "Crear archivo desarrollo"
+   25  git status
+   26  echo "Añadir segunda version" >> desarrollo.txt
+   27  git status
+   28  git add desarrollo.txt
+   29  git commit -m "Actualizar desarrollo.txt"
+   30  git diff main desarrollo
+   31  git status
+   32  git log --oneline main..desarrollo
+   33  git status
+   34  git push -u origin desarrollo
+   35  gitgit switch main
+   36  git switch main
+   37  git switch -c feature-login
+   38  echo "Fichero login" > login.txt
+   39  git add login.txt
+   40  git commit -m "Creado funcionalidad login"
+   41  git log --oneline --graph --all --decorate
+   42  git switch main
+   43  git merge desarrollo
+   44  git merge feature-login
+   45  git status
+   46  git push origin main
+   47  git log --oneline --graph --all --decorate
+   48  git branch -d desarrollo
+   49  git branch -d feature-login
+   50  git branch
+   51  git fetch --prune
+   52  git branch -a
+   53  git status
+   54  git branch
+   55  git log --oneline
+   56  git log > Ying_gitlog.txt
+   57  ls
+   58  cat Ying_gitlog.txt
+   59  git log --oneline > Ying_gitlog_oneline.txt
+   60  cat Ying_gitlog_oneline.txt
+   61  history > Ying_historial.txt
